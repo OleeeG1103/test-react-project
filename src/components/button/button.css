@@ -1,0 +1,23 @@
+.btn {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn.btn-modal-open {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+}
+
+.btn.btn-modal-open:hover {
+    background-color: #b5b5b5;
+    transition: background-color .2s;
+}
+
+.btn.btn-modal-cancel:hover {
+    background-color: #b5b5b5;
+    transition: background-color .2s;
+}
